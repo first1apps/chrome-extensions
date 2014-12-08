@@ -1,7 +1,7 @@
 ## Pause Javascript via Keyboard Shortcut (Chrome Extension)
 
 Sometimes you need to pause javascript execution but you can't move your mouse or lose focus.
-This extension allows you to freeze the page without by pressing Pause on your keyboard.
+This extension allows you to freeze the page by pressing Pause on your keyboard.
 
 ### Usage:
 
@@ -10,9 +10,9 @@ This extension allows you to freeze the page without by pressing Pause on your k
 
 ### Features:
 
-- Pick your own keyboard shortcut
+- Pick your own keyboard combo
 
 ### Bugs and Known Issues:
 
-1. This hasn't been tested on Mac. Feedback is welcome.
-1. Some key combinations are displayed incorrectly when changing the keyboard shortcut.
+- This hasn't been tested on Mac. Feedback is welcome.
+- Some key combinations are displayed incorrectly when changing the keyboard shortcut.
