@@ -1,9 +1,29 @@
 <!doctype html>
 <html>
+<head>
+    <link type="text/css" rel="stylesheet" href="page_action.css" />
+    <script type="text/javascript" src="../lib/zepto.min.js"></script>
+    <script type="text/javascript" src="page_action.js"></script>
+</head>
 <body style="min-width: 300px;">
 
-<div>Press Pause on your keyboard to pause script execution.</div>
-<div>Requires your Console to be open</div>
+<p>
+    <strong>Chrome Developer Tools must be open first.</strong>
+    <br/>
+    <small>(Ctrl + J)</small>
+</p>
+
+<p>
+    Use the keyboard shortcut below to pause javascript execution.
+</p>
+
+<p>
+    <span class="key-modifer inactive" id="key-modifier-ctrl">Ctrl</span>
+    <span class="key-modifer inactive" id="key-modifier-alt">Alt</span>
+    <span class="key-modifer inactive" id="key-modifier-shift">Shift</span>
+    <input type="text" id="key-combo-input" style="width: 5em;" />
+    <button id="save">Save Combo</button>
+</p>
 
 </body>
 </html>

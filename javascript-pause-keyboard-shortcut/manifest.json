@@ -1,6 +1,6 @@
 {
   "name": "Javascript Pause Keyboard Shortcut",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "manifest_version": 2,
   "description": "Allows you to pause script execution via the Pause button on your keyboard.",
   //"homepage_url": "",
@@ -20,7 +20,8 @@
   },
   "permissions": [
     "http://*/*",
-    "https://*/*"
+    "https://*/*",
+    "storage"
   ],
   "content_scripts": [
     {

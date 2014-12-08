@@ -1,0 +1,14 @@
+.key-modifer {
+    display: inline-block;
+    border-radius: 2px;
+    color: white;
+    background: #999999;
+    padding: 0 2px;
+}
+.key-modifer.inactive {
+    background: #999999;
+}
+.key-modifer.active {
+     background: #6fb7ff;
+ }
+
